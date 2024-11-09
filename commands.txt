@@ -1,0 +1,2 @@
+docker build -f Dockering.dockerfile -t search2_img .
+docker run -p 8082:80 search2_img
